@@ -21,11 +21,13 @@ int main() {
 	}
 	if(vi!=0){
 	for(i=0;i<vi;i++){
-		cout<<v[i]<<" ";
+		cout<<v[i];
+		if(i!=vi-1)
+		cout<<" ";
 	}	
 	}
 	else{
-		cout<<"Unique";
+		cout<<"unique";
 	}
 	return 0;
 }
