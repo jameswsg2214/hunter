@@ -23,8 +23,6 @@ int main() {
 	for(i=0;i<n;i++){
 		if(a[i]!=0){
 		cout<<a[i];
-		if(i!=n-1)
-		cout<<" ";
 		}
 	}
 	return 0;
